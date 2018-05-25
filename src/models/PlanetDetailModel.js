@@ -11,6 +11,9 @@ const PlanetDetailModel = PropTypes.shape({
     surface_water: PropTypes.number,
     residents: PropTypes.arrayOf(String),
     residentNames: PropTypes.arrayOf(String),
+    edited: PropTypes.instanceOf(Date),
+    created: PropTypes.instanceOf(Date),
+    url: PropTypes.string,
 });
 
 export default PlanetDetailModel;

@@ -38,7 +38,9 @@ class PlanetSummaryContainer extends Component {
       showPlanetDetail: true,
       planetDetail: {
         ...planet,
-        residentNames: []
+        residentNames: [],
+        createdDate: new Date(planet.created),
+        editedDate: new Date(planet.edited),
       }
     });
 

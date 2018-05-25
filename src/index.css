@@ -21,16 +21,17 @@ form {
   margin-top: 10px;
 }
 
-/* form .control-label !important {
-  clear: both;
-} */
-
 button {
   margin-right: 4px;
 }
 
 table th {
   text-align: center;
+  cursor: pointer;
+}
+
+table tr {
+  cursor: pointer;
 }
 
 ul {
@@ -45,6 +46,7 @@ ul {
 
 .left {
   float: left;
+  text-align: left;
 }
 
 ul li {

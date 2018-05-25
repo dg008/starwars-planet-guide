@@ -105,7 +105,7 @@ class PlanetDetail extends Component {
                         <ControlLabel className="right">Created:</ControlLabel>
                     </Col>
                     <Col xs={6}>
-                        <ControlLabel className="left">{planet.created}</ControlLabel>
+                        <ControlLabel className="left">{planet.createdDate.toDateString()}</ControlLabel>
                     </Col>
                 </Row>
                 <Row>
@@ -113,7 +113,7 @@ class PlanetDetail extends Component {
                         <ControlLabel className="right">Edited:</ControlLabel>
                     </Col>
                     <Col xs={6}>
-                        <ControlLabel className="left">{planet.edited}</ControlLabel>
+                        <ControlLabel className="left">{planet.editedDate.toDateString()}</ControlLabel>
                     </Col>
                 </Row>
                 <Row>
@@ -121,7 +121,7 @@ class PlanetDetail extends Component {
                         <ControlLabel className="right">Url:</ControlLabel>
                     </Col>
                     <Col xs={6}>
-                        <ControlLabel className="left">{planet.url}</ControlLabel>
+                        <a target="_blank" className="left" href={planet.url}>{planet.url}</a>
                     </Col>
                 </Row>
                 <Button style={{marginTop: '10px'}} bsStyle="warning" onClick={this.props.onClose}>Close</Button>
