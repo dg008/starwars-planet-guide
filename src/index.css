@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Bootstrap styles */
+.row {
+  margin-top: 4px;
+}
+
+.filterButton {
+  margin-top: 25px;
+}
+
+table {
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+/* form .control-label !important {
+  clear: both;
+} */
+
+button {
+  margin-right: 4px;
+}
+
+table th {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+ul li {
+  text-align: left;
+}
